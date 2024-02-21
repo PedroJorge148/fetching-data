@@ -65,7 +65,7 @@ export function App() {
             })}
           </TableBody>
         </Table>
-        <Pagination  />
+        <Pagination items={200} page={0} pages={20}  />
       </main>
     </div>
   )
